@@ -37,6 +37,43 @@ if year > 2000:
     print("This year is after 2000")
 else:
     print("This year is before 2000")
+
 # 4. Take two numbers from the user and check which one is greater.
+print("4. Take two numbers from the user and check which one is greater.")
+a = 10
+b = 5
+
+print("a =", a)
+print("b =", b)
+
+if a > b:
+    print("a is greater than b")
+else:
+    print("b is greater than a")
+
 # 5. Compare marks of two students to check if both got the same score.
+print("5. Compare marks of two students to check if both got the same score.")
+Mark = 75
+Peter = 50
+
+print("Mark =", Mark)
+print("Peter =", Peter)
+
+if Mark == Peter:
+    print("Mark and Peter got the same score")
+elif Mark > Peter:
+    print("Mark got greater score than Peter")
+else:
+    print("Peter got greater score than Mark")
+
 # 6. Check if a number is not equal to zero before dividing.
+
+print("6. Check if a number is not equal to zero before dividing.")
+p = 8
+
+print("p =", p)
+
+if p != 0:
+    print("Number : p//2 =", p//2)
+else:
+    print("The number is equal to zero")
