@@ -37,10 +37,11 @@ print("3. Create a simple savings balance calculator: add interest using `*=`.")
 saving = 1000
 interest = 0.75
 
-print("Saving", saving)
-print("Interest", interest)
+print("Saving =", saving)
+print("Interest =", interest)
 
-print("Saving * Interest = ", saving * interest )
+saving *= interest
+print("Saving: ", saving )
 
 # 4. Simulate a countdown where each step decreases by  using `-=`.
 
